@@ -1,4 +1,4 @@
-# ExpenseTracker
+# ExpenseFilter
 
 An intuitive and simple web application designed to help you **filter and analyze your financial expenses** based on categories from a standard CSV file.
 
@@ -6,7 +6,7 @@ An intuitive and simple web application designed to help you **filter and analyz
 
 ## 🚀 Features
 
-**ExpenseTracker** allows you to quickly:
+**ExpenseFilter** allows you to quickly:
 
 1.  **Upload** your expense data from a CSV file.
 2.  **Filter** expenses instantly by specific categories.
