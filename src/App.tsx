@@ -1,17 +1,11 @@
 import type React from "react";
-import { CheckSquare2, FileWarning, Square, Upload } from "lucide-react";
+import { FileWarning, Upload } from "lucide-react";
 import { Button } from "./components/ui/button";
 import { useMemo, useState } from "react";
 import Papa from "papaparse";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-} from "./components/ui/card";
+import { Card } from "./components/ui/card";
 import { CONFIG } from "./config";
 import TableData from "./table-data";
-import { formatCurrency } from "./utils";
 import CategoryFilter from "./CategoryFilter";
 
 export interface DataRow {
